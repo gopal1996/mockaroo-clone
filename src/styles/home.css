@@ -1,0 +1,54 @@
+body {
+    background-color: #303030;
+    color: #fff;
+}
+
+.container {
+    padding: 24px;
+}
+
+.header,.input__list {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 20px;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.input__list {
+    margin: 9px 0;
+}
+
+.input__wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.controller {
+    margin: 1rem 0;
+}
+
+.header__field {
+    display: flex;
+    opacity: 0.6;
+    font-size: 1.25rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    letter-spacing: 0.00938em;
+    color: #fff;
+}
+
+.ant-input {
+    background-color: #303030;
+    color: #fff;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: #303030;
+    color: #fff;
+    height: 40px;
+    border-radius: 4px;
+}
